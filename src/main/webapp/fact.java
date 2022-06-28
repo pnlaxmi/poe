@@ -1,6 +1,7 @@
 public class fact {
 
     public static void main(String[] args) {
+    	public void testMethod() {
 
         int num = 16;
         long factorial = 1;
@@ -11,5 +12,6 @@ public class fact {
         }
         System.out.printf("Factorial of %d = %d", num, factorial);
         return factorial;
+    	}
     }
 }
