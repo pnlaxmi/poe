@@ -1,8 +1,7 @@
 public class fact {
 
     public static void main(String[] args) {
-    	public void testMethod() {
-
+    	
         int num = 16;
         long factorial = 1;
         for(int i = 1; i <= num; ++i)
@@ -11,7 +10,6 @@ public class fact {
             factorial *= i;
         }
         System.out.printf("Factorial of %d = %d", num, factorial);
-        return factorial;
-    	}
+       
     }
 }
