@@ -10,5 +10,6 @@ public class fact {
             factorial *= i;
         }
         System.out.printf("Factorial of %d = %d", num, factorial);
+        return factorial;
     }
 }
